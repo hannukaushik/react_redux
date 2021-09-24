@@ -31,13 +31,13 @@
 
 .img-wrapper img {
   width: 60px;
-  margin-top: -10%;
+  margin-top: -4%;
 }
 .item{
   float: left;
   /* display: inline-block; */
-  width: 120px;
-  padding: 20px;
+  width: 125px;
+  padding: 13px;
 }
 
 .cart-wrapper {
@@ -46,6 +46,19 @@
   border: 1px solid #ccc;
   margin-left: 10%;
 }
+.cart-count{
+      /* width: 100px; */
+    position: absolute;
+    right: 20px;
+    top: 4px;
+    background-color: orangered;
+    color: white;
+    z-index: 1;
+    padding: 7px;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+}
 .btn-wrapper button {
   background-color: orangered;
   border: 1px;
@@ -53,6 +66,11 @@
   border-radius: 7px;
   color: white;
   box-shadow: #333 0px 1px 7px;
+}
+
+button.remove-cart-btn {
+  background-color: gray;
+  margin-top: 8px;
 }
 .add-to-cart img{
   

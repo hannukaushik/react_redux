@@ -4,9 +4,7 @@ function Home(props) {
     console.warn("Home", props.data)
     return (
         <div>
-            <div className="add-to-cart">
-                <img src="https://img.icons8.com/material/100/000000/shopping-cart--v1.png" />
-            </div>
+            
             <h1>
                 Home Component
             </h1>
@@ -22,6 +20,9 @@ function Home(props) {
                     <button onClick={() =>
                         props.addToCartHandler({ price: 1000,name:"iphone 11" })}>
                         Add To Cart</button>
+                    <button className="remove-cart-btn" onClick={() =>
+                        props.removeToCartHandler({ price: 1000,name:"iphone 11" })}>
+                        Remove To Cart</button>
                 </div>
             </div>
         </div>
