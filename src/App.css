@@ -35,7 +35,7 @@
 }
 .item{
   float: left;
-  display: inline-block;
+  /* display: inline-block; */
   width: 120px;
   padding: 20px;
 }
